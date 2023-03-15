@@ -6,6 +6,8 @@
     color: #2f89c5;
     background-color: #1e1e1e;
 }
+/** Shared **/
+
 body {
     height: calc(90vh+200px);
     margin: 0 10%;
@@ -61,6 +63,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+/** portfolio.html **/
+
 #cta-container {
     display: flex;
     flex-wrap: wrap;
@@ -97,6 +102,49 @@ body {
     margin-top: 30px;
 }
 
+/** contact.html **/
+
+#contact-form-container {
+    border: 2px solid #2f89c5;
+    border-radius: 6px;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 40px;
+    transition: .2s;
+}
+
+#contact-form-container a:hover {
+    color: silver;
+    transition: .2s;
+    border-bottom: silver;
+}
+
+/** skills.html **/
+
+#skills-container {
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 50px 0;
+}
+
+#skills-list {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+
+}
+
+#skills-list li {
+    padding: .8rem 3rem;
+    font-size: 1.3rem;
+}
+
 /** Mobile **/
 
 @media only screen and (max-width: 600px) {
@@ -109,4 +157,13 @@ body {
   #social-wrap {
     margin: 30px 0;
   }
+  #contact-msg {
+    border-radius: 6px;
+    display: flex;
+    margin: 30px auto;
+    border: 2px solid #2f89c5;
+    padding: 10px;
+    width: 60vw;
 }
+}
+
