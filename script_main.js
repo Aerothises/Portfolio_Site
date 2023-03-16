@@ -1,10 +1,14 @@
-document.onload = function(){
-    console.log("Hello world")
-};
-
-var fa = 2
-var so = 5
-
-document.onload = function(fa, so) {
-    return fa + so;
+function required()
+{
+var empt = document.forms["cform1"]["message"].value;
+if (empt == "")
+{
+alert("Please input a Value");
+return false;
+}
+else 
+{
+alert('Code has accepted : you can try another');
+return true; 
+}
 }
