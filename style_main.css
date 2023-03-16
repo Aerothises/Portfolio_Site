@@ -171,7 +171,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    width: max(300px, 60vw);
+    width: min(400px, 60vw);
     margin: 25px;
     transition: .2s;
     cursor: default;
