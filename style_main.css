@@ -128,10 +128,13 @@ body {
     flex-direction: column;
     gap: 30px;
     align-items: flex-start;
+    
 }
-#formspree-input-email {
+.formspree-input {
     border: 0;
     border-bottom: 1px solid #2f89c5;
+    background-color: #2a2a2a;
+
 }
 .formspree-input:focus {
     outline: none;
