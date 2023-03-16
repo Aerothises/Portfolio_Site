@@ -3,9 +3,7 @@
     padding: 0;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    color: #2f89c5;
-    background-color: #1e1e1e;
-}
+    color: #2f89c5;}
 /** Shared **/
 
 body {
@@ -13,6 +11,7 @@ body {
     margin: 0 10%;
     max-width: 99vw;
     min-width: 70vw;
+    background-color: #2a2a2a;
 }
 #header {
     display: flex;
@@ -23,6 +22,7 @@ body {
     min-height: min(40vh, 160px);
     padding: 0;
     margin: 25px 0;
+
 }
 #logo-main {
     width: max(20vh, 300px);
@@ -215,17 +215,22 @@ body {
     justify-content: space-evenly;
     gap: 4rem;
     position: absolute;
-    bottom: 1px;
+    bottom: -28px;
     right: 10px;
     display: none;
-    transition: 2.6s;
     text-decoration: underline;
     text-underline-offset: 2px;
+    padding-top: 18px
 }   
 
 /** Mobile **/
 
 @media only screen and (max-width: 600px) {
+    body {
+    max-width: 99vw;
+    margin: 0;
+    padding: 10px;
+}
   #nav-wrap {
     gap: 40px;
   }
