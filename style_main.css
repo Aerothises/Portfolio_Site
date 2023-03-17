@@ -102,6 +102,12 @@ body {
     margin-top: 30px;
 }
 
+#project-carousel {
+    max-width: 90vw;
+}
+#project-carousel img {
+    max-width: 100%;
+}
 /** contact.html **/
 
 #contact-form-container {
