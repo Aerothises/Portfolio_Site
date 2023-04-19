@@ -100,7 +100,7 @@ nav::after {
 .tile-container-header {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 20px;
     align-items: center;
     outline-offset: 5px;
@@ -117,13 +117,39 @@ nav::after {
 }
 .tile-container-header i {
     font-size: 5rem;
-}
+}\index.html
 
 .tile-container-desc {
     font-size: 2rem;
     font-weight: bold;
 }
- 
+
+#side-menu {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+}
+#side-menu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 4rem;
+    margin: 15px;
+  }
+#contact-form {
+    margin-top: 25px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
 /** mobile **/
 
 @media screen and (max-width: 480px) {

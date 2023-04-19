@@ -24,7 +24,7 @@
             <div id="nav-links-wrapper" class="flex dark-background">
                 <a href="#">home</a>
                 <a href="#">about</a>
-                <a href="#">contact</a>
+                <a href="#" onclick="openSideNav()">contact</a>
             </div>
         </nav>
     </header>
@@ -64,6 +64,26 @@
                     </div>
                 </div>
         </section>
+
+<div id="side-menu">
+    <a href="javascript:void(0)" style="" class="closebtn" onclick="closeSideNav()">&times;</a>
+    <form id="contact-form"
+    action="https://formspree.io/f/xpzekwjl"
+    method="POST"
+    >
+    <label>
+      Your email:
+      <input type="email" name="email">
+    </label>
+    <label>
+      Your message:
+      <textarea name="message"></textarea>
+    </label>
+    <button type="submit">Send</button>
+  </form>
+</div>
+
+
     </main>
 
 
