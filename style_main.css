@@ -27,7 +27,7 @@
 
 body {
     height: 100%;
-    background-image: url(hero-img.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.30)), url(hero-img.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
